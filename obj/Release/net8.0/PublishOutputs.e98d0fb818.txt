@@ -1,0 +1,16 @@
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\WebAPI.exe
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\appsettings.Development.json
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\appsettings.json
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\WebAPI.dll
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\WebAPI.deps.json
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\WebAPI.runtimeconfig.json
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\WebAPI.pdb
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\MySqlConnector.dll
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\UNAD.DAL.dll
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\UNAD.Entity.dll
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\UNAD.Entity.pdb
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\bin\Publish\UNAD.DAL.pdb

@@ -1,0 +1,206 @@
+### --- Categorías---
+### Obtener todas las categorías
+GET http://localhost:5290/api/Categorias HTTP/1.1
+
+### Obtener una categoría por ID
+GET http://localhost:5290/api/Categorias/10007 HTTP/1.1
+
+### Crear una nueva categoría
+POST http://localhost:5290/api/Categorias HTTP/1.1
+Content-Type: application/json
+
+{
+    "CategoriaID": 10007,
+    "Fecha": "2024-02-18",
+    "Categoria": "Impresoras"
+}
+
+### Actualizar una categoría existente
+PUT http://localhost:5290/api/Categorias/10001 HTTP/1.1
+Content-Type: application/json
+    
+{
+    "CategoriaID": 10001,
+    "Fecha": "2024-02-18",
+    "Categoria": "Celulares"
+}
+
+### Eliminar una categoría
+DELETE http://localhost:5290/api/Categorias/10006 HTTP/1.1
+
+
+### --- Productos ---
+### Obtener todos los productos
+GET http://localhost:5290/api/Productos HTTP/1.1
+
+### Obtener un producto por ID
+GET http://localhost:5290/api/Productos/20001 HTTP/1.1
+
+### Crear un nuevo producto
+POST http://localhost:5290/api/Productos HTTP/1.1
+Content-Type: application/json
+
+{
+    "ProductoID": 20008,
+    "Fecha": "2024-02-18",
+    "CategoriaID": 10007,
+    "Producto": "Iphone 13 Pro Max 256GB",
+    "Costo": 400,
+    "Cantidad": 8,
+    "Precio": 500
+}
+
+### Actualizar un producto existente
+PUT http://localhost:5290/api/Productos/20007 HTTP/1.1
+Content-Type: application/json
+    
+{
+    "ProductoID": 20007,
+    "Fecha": "2024-02-18",
+    "CategoriaID": 10006,
+    "Producto": "Cámara digital Canon EOS Rebel T8",
+    "Costo": 400,
+    "Cantidad": 8,
+    "Precio": 500
+}
+
+### Eliminar un producto
+DELETE http://localhost:5290/api/Productos/20006 HTTP/1.1
+
+
+### --- Clientes ---
+### Obtener todos los clientes
+GET http://localhost:5290/api/Clientes HTTP/1.1
+
+### Obtener un cliente por ID
+GET http://localhost:5290/api/Clientes/30001 HTTP/1.1
+
+### Crear un nuevo cliente
+POST http://localhost:5290/api/Clientes HTTP/1.1
+Content-Type: application/json
+
+{
+    "ClienteID": 30006,
+    "Nombres": "Bryan",
+    "Direccion": "Calle Sur 789",
+    "Telefono": "9012345678"
+}
+
+### Actualizar un cliente existente
+PUT http://localhost:5290/api/Clientes/30005 HTTP/1.1
+Content-Type: application/json
+    
+{
+    "ClienteID": 30005,
+    "Nombres": "Laura Gómez Pérez",
+    "Direccion": "Calle Sur 345",
+    "Telefono": "9012345678"
+}
+
+### Eliminar un cliente
+DELETE http://localhost:5290/api/Clientes/30006 HTTP/1.1
+
+
+### --- Tipo Factura ---
+### Obtener todos los tipos de factura
+GET http://localhost:5290/api/TipoFacturas HTTP/1.1
+
+### Obtener un tipo de factura por ID
+GET http://localhost:5290/api/TipoFacturas/40001 HTTP/1.1
+
+### Crear un nuevo tipo de factura
+POST http://localhost:5290/api/TipoFacturas HTTP/1.1
+Content-Type: application/json
+
+{
+    "TipoFacturaID": 40003,
+    "TipoFactura": "Electronico"
+}
+
+### Actualizar un tipo de factura existente
+PUT http://localhost:5290/api/TipoFacturas/40002 HTTP/1.1
+
+Content-Type: application/json
+    
+{
+    "TipoFacturaID": 40002,
+    "TipoFactura": "Crédito 30 días"
+}
+
+### Eliminar un tipo de factura
+DELETE http://localhost:5290/api/TipoFacturas/40002 HTTP/1.1
+
+
+### --- Facturas ---
+### Obtener todas las facturas
+GET http://localhost:5290/api/Facturas HTTP/1.1
+
+### Obtener una factura por ID
+GET http://localhost:5290/api/Facturas/50001 HTTP/1.1
+
+### Crear una nueva factura
+POST http://localhost:5290/api/Facturas HTTP/1.1
+Content-Type: application/json
+
+{
+   "FacturaID": 50006,
+    "Fecha": "2024-02-18",
+    "TipoFacturaID": 40003, 
+    "ClienteID": 30006, 
+    "SubTotal": 600,
+    "Descuento": 20,
+    "Monto": 780
+}
+
+### Actualizar una factura existente
+PUT http://localhost:5290/api/Facturas/50005 HTTP/1.1
+Content-Type: application/json
+    
+{
+    "FacturaID": 50005,
+    "Fecha": "2024-02-18",
+    "TipoFacturaID": 40001, 
+    "ClienteID": 30005, 
+    "SubTotal": 800,
+    "Descuento": 20,
+    "Monto": 780
+}
+
+### Eliminar una factura
+DELETE http://localhost:5290/api/Facturas/50005 HTTP/1.1
+
+
+### --- Detalle Facturas ---
+### Obtener todos los detalles de factura
+GET http://localhost:5290/api/DetalleFacturas HTTP/1.1
+
+### Obtener un detalle de factura por ID
+GET http://localhost:5290/api/DetalleFacturas/60001 HTTP/1.1
+
+### Crear un nuevo detalle de factura
+POST http://localhost:5290/api/DetalleFacturas HTTP/1.1
+Content-Type: application/json
+
+{
+    "DetalleFacturaID": 60006,
+    "FacturaID": 50005,
+    "ProductoID": 20005,
+    "Cantidad": 2,
+    "Precio": 500
+}
+
+### Actualizar un detalle de factura existente
+PUT http://localhost:5290/api/DetalleFacturas/60005 HTTP/1.1
+Content-Type: application/json
+    
+{
+    "DetalleFacturaID": 60005,
+    "FacturaID": 50005,
+    "ProductoID": 20006,
+    "Cantidad": 2,
+    "Precio": 500
+}
+
+### Eliminar un detalle de factura
+DELETE http://localhost:5290/api/DetalleFacturas/60005 HTTP/1.1
+```
