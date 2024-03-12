@@ -1,18 +1,18 @@
-### --- Categorías---
-### Obtener todas las categorías
+### ? Categorías---
+### * Obtener todas las categorías
 GET http://localhost:5290/api/Categorias HTTP/1.1
 
-### Obtener una categoría por ID
+### * Obtener una categoría por ID
 GET http://localhost:5290/api/Categorias/10007 HTTP/1.1
 
-### Crear una nueva categoría
+### * Crear una nueva categoría
 POST http://localhost:5290/api/Categorias HTTP/1.1
 Content-Type: application/json
 
 {
-    "CategoriaID": 10007,
+    "CategoriaID": 10002,
     "Fecha": "2024-02-18",
-    "Categoria": "Impresoras"
+    "Categoria": "Computadoras"
 }
 
 ### Actualizar una categoría existente

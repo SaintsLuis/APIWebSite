@@ -33,9 +33,10 @@ C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\staticwebassets.pack.j
 C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\scopedcss\bundle\WebAPI.styles.css
 C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\scopedcss\projectbundle\WebAPI.bundle.scp.css
-C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\WebAPI.csproj.CopyComplete
 C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\WebAPI.dll
 C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\refint\WebAPI.dll
 C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\WebAPI.pdb
 C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\WebAPI.genruntimeconfig.cache
 C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\ref\WebAPI.dll
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\WebAPI.sourcelink.json
+C:\Users\PC\Dev\UNAD.WebSiteAPI\WebAPI\obj\Release\net8.0\WebAPI.csproj.Up2Date
