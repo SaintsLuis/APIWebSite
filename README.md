@@ -1,6 +1,4 @@
 
-
-```markdown
 # WebSiteAPI
 
 A RESTful Web API built with ASP.NET Core, following a layered architecture (Controllers, Services, Models) for clean separation of concerns.
@@ -55,12 +53,4 @@ A RESTful Web API built with ASP.NET Core, following a layered architecture (Con
 ## Author
 
 Luis — Backend Developer
-```
 
-**Cómo actualizarlo:**
-1. Ve a tu repo en GitHub → clic en `README.md`
-2. Clic en el ícono de lápiz (editar) arriba a la derecha
-3. Borra el contenido actual y pega este
-4. Commit directo a `main`
-
-Una vez lo actualices, me avisas y ajustamos la propuesta de Upwork para linkear el repo con confianza.
